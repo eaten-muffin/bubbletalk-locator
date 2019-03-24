@@ -1,0 +1,40 @@
+{
+  "name": "bubbletalk-locator",
+  "version": "1.0.0",
+  "description": "provides an information of the requested locations",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaten-muffin/bubbletalk-locator.git"
+  },
+  "author": "gigoh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eaten-muffin/bubbletalk-locator/issues"
+  },
+  "homepage": "https://github.com/eaten-muffin/bubbletalk-locator#readme",
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/express": "^4.16.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.11.3",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  }
+}
